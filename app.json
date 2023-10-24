@@ -1,0 +1,39 @@
+{
+    "name": "Aʟᴏɴᴇ Tᴇʟᴇᴛʜᴏɴ Mᴜsɪᴄ",
+    "description": "Music allow you to stream music trought the telegram voice chat feature Based on Telethon.",
+    "keywords": ["Alone", "Alone-Vc-Player", "music", "voice chat", "telegram", "Yukki", "Yukki Music", "Private Music", "telethon"],
+    "repository": "https://github.com/TeamAloneOp/Telethon-Music",
+  "stack": "container",
+    "env": {
+        "STRING_SESSION": {
+            "description": "fill with the telethon session string from https://replit.com/@TeamAloneOp/Generator",
+            "required": true
+        },
+        "SUPPORT": {
+            "description": "Fill there your group username else leave",
+            "required": false,
+            "value": "AlonesHeaven"
+        },
+        "CHANNEL": {
+            "description": "Fill there your Channel username else leave",
+            "required": false,
+            "value": "AloneXBots"
+        },
+        "BOT_USERNAME": {
+            "description": "Fill there your bot username",
+            "required": false,
+            "value": "AloneXMusicBot"
+        },
+        "ASSISTANT_ID": {
+            "description": "Go To @AloneXRobot Pm & Type /id",
+            "required": false,
+            "value": "1234567890"
+        },
+        "BOT_TOKEN": {
+            "description": "fill with your bot token get from @BotFather on telegram",
+            "required": true,
+            "value": ""
+        }
+
+    }
+  }

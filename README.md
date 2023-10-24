@@ -2,7 +2,7 @@
 
 # String Session (Telethon)
 
-<p align="center"><a href="https://replit.com/@TeamAloneOp/Generator"> <img src="https://img.shields.io/badge/String%20Session-black?style=for-the-badge&logo=web" width="220" height="38.45"/></a></p>
+<p align="center"><a href="https://replit.com/@itz-zaid/Generator"> <img src="https://img.shields.io/badge/String%20Session-black?style=for-the-badge&logo=web" width="220" height="38.45"/></a></p>
 
 # Free Tutorials/Hosting Methods 
 

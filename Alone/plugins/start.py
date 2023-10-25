@@ -31,7 +31,7 @@ async def start(event):
 
 
 
-@Alone.on(events.callbackquery.CallbackQuery(data="start"))
+@Alone.on(events.callbackquery.CallbackQuery(data="mstart"))
 async def _(event):
     if Config.MANAGEMENT_MODE == "ENABLE":
         return

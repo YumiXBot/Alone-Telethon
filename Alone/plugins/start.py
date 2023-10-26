@@ -13,7 +13,7 @@ PM_START_TEXT = """
 ➻ **ᴄʟɪᴄᴋ ᴏɴ ʜᴇʟᴘ ʙᴜᴛᴛᴏɴ ꜰᴏʀ ᴍᴏʀᴇ ɪɴꜰᴏʀᴍᴀᴛɪᴏɴ**.
 """
 
-@Alone.on(events.NewMessage(pattern="^[?!/]start$"))
+@Alone.on(events.NewMessage(pattern="^[?!/]mstart$"))
 async def start(event):
     if Config.MANAGEMENT_MODE == "ENABLE":
         return
